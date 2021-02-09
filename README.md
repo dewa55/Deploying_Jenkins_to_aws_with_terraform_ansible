@@ -1,4 +1,4 @@
-#Setup Requirements
+# Setup Requirements
 ```
 1. Terraform binary => 0.12.x
 2. Python3 and PIP
@@ -6,13 +6,13 @@
 4. AWS CLI
 ```
 
-##Notes and Instructions
+## Notes and Instructions
 This project requires an S3 backend for storing Terraform state file.
 ```
  $> aws s3api create-bucket --bucket <YOUR-UNIQUE-BUCKET-NAME-GOES-HERE>
 ```
 
-##Supplementary files
+## Supplementary files
 ```
 1. ansible playbooks
 2. aws_get_cp_hostedzone for AWS DNS zone
